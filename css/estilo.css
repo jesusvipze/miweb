@@ -1,0 +1,27 @@
+body{background-color:grey;}
+header{display:block;margin-bottom:20px!important;font-weight:bold;width:90%;height:50px;background-color:white;margin:0 auto;border:2px solid green;}
+.verde {font-weight:bold;color: green;text-align:left;font-size:1.5em;top: 11px;position:absolute;}
+.rojo {color:red;text-align:left;font-size:1.5em;font-weight:bold;}
+#encabezado{margin:0 auto;margin-top: 22px;border:2px solid black;background-color:white;width:95%;height:20px;position:relative;z-index:10;}
+.titular {position:absolute;margin-top:-12px;font-size: 1.4em;}
+nav{display:block;margin-bottom:20px !important;margin-bottom:10px;font-weight:bold;width:90%;height:50px;background-color:white;margin:0 auto;border:2px solid red !important;}
+section.izquierda{margin-right:19px;float:left;max-width:59%;height:200px !important;display:block;margin-bottom:20px!important;font-weight:bold;width:90%;background-color:white;margin-left:70px;}
+aside{margin-left:20px !important;float:left;max-width:28%;height:721px !important;display:block;margin-bottom:20px!important;font-weight:bold;width:90%;height:50px;background-color:white;margin:0 auto;border:2px solid red;}
+.dentrosection {margin-top:-16px;font-size:1.2em;}
+#divdesection {height:70%;margin-top:38px;margin-bottom:0;border: 2px solid black;width:95%;margin-left: 17px;}
+#labarralateral {display:block;border:2px solid red; width:90%;margin:0 auto!important;position:relative;z-index:10;height:400px;margin:30px; }
+#barralateral {height:230px;}
+section.izquierda{margin-right:19px;float:left;max-width:59%;height:200px !important;display:block;margin-bottom:20px!important;font-weight:bold;width:90%;background-color:white;margin-left:70px;}
+main {position:absolute;border: 2px solid green;background-color:white;width:58.4%;margin-top:222px;margin-left:68px;height:500px;}
+article {display:block;background-color:white;width:95%;height:218px;border:2px solid purple;margin: 0 auto;margin-bottom: 17px;margin-top:-8px;
+}
+margin-bottom: 17px;margin-top: 11px;}
+#codigomalo{margin-left:7px;}
+.interiores {position:relative;width: 95%;border:2px solid green;height:80px;margin: 0 auto;margin-bottom:21px;margin-top:-12px;}
+#bordenegro{border:2px solid black;}
+.h1rollo {border:2px solid black;width:97%;margin:0 auto;margin-top:37px;height:32px;}
+.h1malo {margin-top:-10px;}
+.letrap{margin-left:12px;font-size:20px;}
+#margeado {position:relative;width:100%;border:2px solid black;height:80px;margin-top:18px;margin-left:-1px;}
+footer {border:2px solid green;overflow:hidden;display:block;width:90%;height:80px;background-color:white;margin:0 auto;}
+.green{color:green;font-size:20px;margin-left:8px;}

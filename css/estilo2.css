@@ -1,0 +1,7 @@
+#before{background-color:#c9faf7;width:60%;margin:0 auto;height:30px;}
+#div-1{background-color:black;color:white;width:60%;margin: 0 auto;height:60px;}
+#after{text-align:right;position:relative;background-color:#c9faf7;width:60%;margin:0 auto;height:30px;z-index:6;}
+#div-1c {background-color:#cac70a;width:15%;float:right;position:relative;z-index:10;margin-right:13px;margin-top:22px;height:30px;
+}
+#div-1a {color:white;background-color:red;width:20%;height:300px;position:absolute;z-index:15;margin-left:302px;top:60px;}
+#div-1b {color:white;background-color:green;width:20%;height:500px;position:absolute;z-index:20;margin-left:586px;top:60px;}
