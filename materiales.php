@@ -1,5 +1,5 @@
-<? php
-echo '<!DOCTYPE html>
+<?php
+  echo '<!DOCTYPE html>
 <html lang="es">
 <head>
         <title> Bicicletas De Madera</title>
@@ -57,18 +57,25 @@ echo '<!DOCTYPE html>
                                 <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2" id="izquierda">
                                         <div id="recipiente"><p id="titulo">TESTIMONIOS:</p><br />
-                                        <p class="testimonio">"Me ha llegado esta tarde, es genial, gracias". Jose Lopez (Murcia)</p>
-                                        <p class="testimonio">"Brutal. Es demasiado bonita y buena. Gracias". Laura Gonzalez (León)</p>
-                                        <p class="testimonio">"Que ligera y robusta es. ¡Me encanta!". Mario Bros</p>
+                                        <p class="testimonio">"MADERA DE PINO TRADICIONAL. SENCILLEZ Y ELEGANCIA"</p>
+                                        <img src="img/bicimaderita.jpg" alt="bici de madera" />
+                                        
+                                        <p class="testimonio">"MADERA DE CASTAÑO. TOQUE RÚSTICO.</p>
+                                        <img src="img/bicidemadera2.jpg" alt="bici de madera" />
+                                        <p class="testimonio">MADERA DE BAMBÚ DEL PIRINEO. UNA LOCURA</p>
                                         </div>	
                                         </div>
                                         <div class="col-xs-4 col-sm-10 col-md-10 col-lg-10" id="derecha">
                                                 
                                                 
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cuerpo">
-                                                	<p>Descubre la mejor selección de bicicletas de madera del mercado. Bicicletas de carreras, biciletas de montaña, bicicletas de paseo..lo que necesites.</p><br />
-                                                	<p>Todo ello fabricado a mano por nuestros artesanos, con la mejores piezas de madera y de metal (donde es necesario). Bañamos la madera en una solución impermeable que le aporta  mayor vida al material.</p><br />
-                                                	<p>Te sentirás bien, porque...¡Te sentirás unid@ a la naturaleza! </p>
+                                                	<p>Fabricamos nuestras bicicletas con los mejores materiales de la naturaleza. Para ello seleccionamos cuidadosamente cada pieza antes del montaje.</p><br />
+                                                	<p>Puedes escoger la madera que más te guste.</p><br />
+                                                	<p>Porque queremos que te encante tu nueva bicicleta</p>
+                                                	 <div id="axis" class="one">
+                                                     <img width="200" class="object van move-right" src="img/bicicleta.gif" alt="bicicleta"/>
+                                                     </div>
+                                                	
                                                 </div>
 												
 												

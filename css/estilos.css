@@ -1,0 +1,85 @@
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+padding-right: 0px;
+padding-left: 0px;
+}
+body{max-width:97%;margin:0 auto;}
+.container {max-width:100%;margin: 0;}
+@media (max-width:575px){ 
+#izquierda {max-height:100%;}
+}
+.columnaheader {background-color:#c99c04;border: 2px solid white;color:white;max-height:500px;}
+.columnafooter {text-align:center;font-size:1.2em;background-color:#c99c04;border: 2px solid white;color:black;font-weight:bold;border-radius:10px;height:80px;opacity:0.4;}
+#izquierda {border-right:8px solid #faf5f3;font-family:Arial Black;}
+.cuerpo {background-color:white;float:left;height:20%;font-size:1.8em;margin-left:25px;padding:8px;max-width:99%;}
+img {max-width:100%;}
+.recipiente{max-width:100%;max-height:100%;}
+p.testimonio{background-color:grey;opacity:0.6;}
+
+/*css del menu */
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(20, 19, 19, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 36px;
+    background-color: rgba(225, 179, 242, 1);
+    background: -webkit-linear-gradient(top, rgba(230, 9, 182, 1) 0%, rgba(225, 179, 242, 1) 100%);
+    background: linear-gradient(to bottom, rgba(230, 9, 182, 1) 0%, rgba(225, 179, 242, 1) 100%);
+    border-width: 1px;
+    border-radius: 25px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(18, 15, 15, 1);
+    background-color: rgba(31, 242, 133, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #e1b3f2;
+}
+
+nav {background-color:purple;min-width:104% !important;}
+.navbar-expand-lg {margin-left:-25px;}
+.form-control mr-sm-2 {margin-left:-6px;}
+
+p#titulo,p {
+	
+	text-align: center;
+}
+.object {
+  position: absolute;
+}
+
+#axis:hover .move-right{
+    transform: translate(900px,0);
+    -webkit-transform: translate(600px,0); /** Chrome & Safari **/
+    -o-transform: translate(900px,0); /** Opera **/
+    -moz-transform: translate(900px,0); /** Firefox **/
+}
+.object {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+}
+#formulario {background-color:purple;color:white;max-width:80%;padding:8px;border-radius:6px; margin:0 auto;}
