@@ -1,104 +1,107 @@
 <?php
- echo '<!DOCTYPE html>
-<html lang="es">
-<head>
-        <title> Bicicletas De Madera</title>
-        <meta charset="utf-8">
-        <meta name="description" content="Este es un documento HTML5">
-        <!-- ENLACE DESCARGA Bootstrap:  https://getbootstrap.com/docs/4.0/getting-started/download/ -->
-        <!-- NECESARIO para el Bootstrap y que sea responsive -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+echo'<!DOCTYPE html>';
+echo'<html lang="es">';
+echo'<head>';
+      echo'<title> Bicicletas De Madera</title>';
+      echo'<meta charset="utf-8">';
+      echo'<meta name="description" content="Este es un documento HTML5">';
+      /*ENLACE DESCARGA Bootstrap:  https://getbootstrap.com/docs/4.0/getting-started/download/ -->
+        <!-- NECESARIO para el Bootstrap y que sea responsive -->*/
+      echo'<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> <!– Importante llamar antes a jQuery para que funcione bootstrap.min.js   –> 
-    <script src="js/bootstrap.min.js"></script> <!– Llamamos al JavaScript de Bootstrap –> 
+      echo'<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">';
+      echo'<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>';
+       /*<!– Importante llamar antes a jQuery para que funcione bootstrap.min.js   –>*/ 
+    echo '<script src="js/bootstrap.min.js"></script>';
+    /*<!– Llamamos al JavaScript de Bootstrap –>*/ 
 
-        <link href="css/estilos.css" rel="stylesheet" type="text/css">        
-</head>
-<body>
+    echo'<link href="css/estilos.css" rel="stylesheet" type="text/css">';        
+echo'</head>';
+echo'<body>';
 	
 
-	<nav class="navbar navbar-expand-lg navbar-dark info-color">
-    <a class="navbar-brand" href="#">MENÚ</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	echo'<nav class="navbar navbar-expand-lg navbar-dark info-color">';
+    echo'<a class="navbar-brand" href="#">MENÚ</a>';
+    echo'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-               <a class="nav-link waves-effect waves-light" href="index.html">INICIO <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link waves-effect waves-light" href="materiales.html">MATERIA PRIMA</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link waves-effect waves-light" href="contacto.html">CONTACTO</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MAS COSAS</a>
-                <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item waves-effect waves-light" href="#">RUEDAS</a>
-                    <a class="dropdown-item waves-effect waves-light" href="#">SILLINES</a>
-                    <a class="dropdown-item waves-effect waves-light" href="#">CESTAS</a>
-                </div>
-            </li>
-        </ul>
-        <form class="form-inline">
-            <div class="md-form my-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
-            </div>
-        </form>
-    </div>
-</nav>
+    </button>';
+    echo'<div class="collapse navbar-collapse" id="navbarSupportedContent">';
+        echo'<ul class="navbar-nav mr-auto">';
+            echo'<li class="nav-item active">';
+             echo'<a class="nav-link waves-effect waves-light" href="index.php">INICIO <span class="sr-only">(current)</span></a>';
+            echo'</li>';
+            echo'<li class="nav-item">';
+                echo'<a class="nav-link waves-effect waves-light" href="materiales.php">MATERIA PRIMA</a>';
+            echo'</li>';
+            echo'<li class="nav-item">';
+            echo'<a class="nav-link waves-effect waves-light" href="contacto.php">CONTACTO</a>';
+            echo'</li>';
+            echo'<li class="nav-item dropdown">';
+                echo'<a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MAS COSAS</a>';
+                echo'<div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">';
+                 echo'<a class="dropdown-item waves-effect waves-light" href="#">RUEDAS</a>';
+                 echo'<a class="dropdown-item waves-effect waves-light" href="#">SILLINES</a>';
+                 echo'<a class="dropdown-item waves-effect waves-light" href="#">CESTAS</a>';
+                echo'</div>';
+            echo'</li>';
+        echo'</ul>';
+        echo'<form class="form-inline">';
+        echo'<div class="md-form my-0">';
+              echo'<input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">';
+            echo'</div>';
+        echo'</form>';
+    echo'</div>';
+echo'</nav>';
                   
-            <div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 columnaheader">
-            <img src="img/banner.jpg" alt="Bicicleta de madera" />	
-            </div></div>
-                                <div class="row">
-                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2" id="izquierda">
-                                        <div id="recipiente"><p id="titulo">TESTIMONIOS:</p><br />
-                                        <p class="testimonio">"MADERA DE PINO TRADICIONAL. SENCILLEZ Y ELEGANCIA"</p>
-                                        <img src="img/bicimaderita.jpg" alt="bici de madera" />
+            echo'<div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 columnaheader">';
+            echo'<img src="img/banner.jpg" alt="Bicicleta de madera" />';	
+            echo'</div></div>';
+                               echo'<div class="row">';
+                                       echo'<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2" id="izquierda">';
+                                       echo'<div id="recipiente"><p id="titulo">TESTIMONIOS:</p><br />';
+                                       echo'<p class="testimonio">"MADERA DE PINO TRADICIONAL. SENCILLEZ Y ELEGANCIA"</p>';
+                                       echo'<img src="img/bicimaderita.jpg" alt="bici de madera" />';
                                         
-                                        <p class="testimonio">"MADERA DE CASTAÑO. TOQUE RÚSTICO.</p>
-                                        <img src="img/bicidemadera2.jpg" alt="bici de madera" />
-                                        <p class="testimonio">MADERA DE BAMBÚ DEL PIRINEO. UNA LOCURA</p>
-                                        </div>	
-                                        </div>
-                                        <div class="col-xs-4 col-sm-10 col-md-10 col-lg-10" id="derecha">
+                                        echo'<p class="testimonio">"MADERA DE CASTAÑO. TOQUE RÚSTICO.</p>';
+                                        echo'<img src="img/bicidemadera2.jpg" alt="bici de madera" />';
+                                        echo'<p class="testimonio">MADERA DE BAMBÚ DEL PIRINEO. UNA LOCURA</p>';
+                                        echo'</div>';	
+                                        echo'</div>';
+                                        echo'<div class="col-xs-4 col-sm-10 col-md-10 col-lg-10" id="derecha">';
                                                 
                                                 
-                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cuerpo">
-                                                	<div id="formulario">
-                                                    <form action="contact.php" method="post">
-<label for="nombre">Nombre:</label>
- <input class="form-control" id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" /><br /><br />
- <label for="email">Email:</label>
- <input class="form-control" id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" /></form><br /><br />
- <label for="mensaje">Mensaje:</label>
- <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea><br />
- <input id="submit" type="submit" name="submit" value="Enviar" />
-</div>
-</form>
-                                                     </div>
+                                               echo'<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cuerpo">';
+                                                	echo'<div id="formulario">';
+                                                    echo'<form action="contact.php" method="post">';
+echo'<label for="nombre">Nombre:</label>';
+echo'<input class="form-control" id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" /><br /><br />';
+ echo'<label for="email">Email:</label>';
+ echo'<input class="form-control" id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" /></form><br /><br />';
+ echo'<label for="mensaje">Mensaje:</label>';
+ echo'<textarea class="form-control" id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea><br />';
+ echo'<input id="submit" type="submit" name="submit" value="Enviar" />';
+echo'</div>';
+echo'</form>';
+                                                     echo'</div>';
                                                 	
-                                                </div>
+                                                echo'</div>';
 												
 												
 												
-										</div>		
-                                </div>
+										echo'</div>';		
+                                echo'</div>';
         
-			<div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 columnafooter">
-				<p>BicicletasDemadera.Com™ ©copyright 2020</p>
-			</div></div>					
-        </div>   
+			echo'<div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 columnafooter">';
+				echo'<p>BicicletasDemadera.Com™ ©copyright 2020</p>';
+			echo'</div></div>';					
+        echo'</div>';   
         
-		</body>
-		</html>
+		echo'</body>';
+		echo'</html>';
 	
         		
 		
-</body>
-</html>';
+echo'</body>';
+echo'</html>';
 ?>
